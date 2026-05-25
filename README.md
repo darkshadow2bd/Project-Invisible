@@ -59,11 +59,20 @@ This is not just obfuscation. Every hidden payload can be **encrypted with AES-2
 
 | Action | Command |
 | :--- | :--- |
-| Encode text | `python3 en.py "Your message" --save out.txt` |
-| Decode it back | `python3 de.py out.txt` |
-| Hide a file | `python3 en.py --file document.pdf --name document.pdf --save out.txt` |
+| Launch Desktop GUI | `python3 gui.py` |
+| Encode text (CLI) | `python3 en.py "Your message" --save out.txt` |
+| Decode back (CLI) | `python3 de.py out.txt` |
+| Hide a file (CLI) | `python3 en.py --file document.pdf --name document.pdf --save out.txt` |
 | Encrypt + hide | `python3 en.py --file document.pdf --encrypt --save out.txt` |
 
+### Modern Desktop GUI
+
+For an elegant, dark-themed native desktop experience supporting easy file selectors, text areas, password toggles, and responsive styling, run:
+```bash
+python3 gui.py
+```
+
+### Command Line Quick Start
 ```bash
 # Encode and decode in two commands
 python3 en.py "This is a highly classified secret." --save hidden.txt
@@ -234,6 +243,17 @@ The encoder tests multiple algorithms and selects the one producing the smallest
 
 ---
 
+## Contributors
+
+Project Invisible is built and maintained by:
+
+| Role | Name | GitHub | Links |
+| :--- | :--- | :--- | :--- |
+| **Original Author & CLI Engine** | DarkShadow | [@darkshadow2bd](https://github.com/darkshadow2bd) | [X @darkshadow2bd](https://x.com/darkshadow2bd) · [Telegram ShellSec](https://t.me/ShellSec) |
+| **Windows Native GUI Contributor** | Imran Hossain | [@ImranVibes](https://github.com/ImranVibes) | — |
+
+---
+
 ## Connect
 
 **Author:** DarkShadow
@@ -246,5 +266,6 @@ The encoder tests multiple algorithms and selects the one producing the smallest
 ---
 
 <div align="center">
-  <b>Project Invisible</b> — What you see is not what you get.
+  <b>Project Invisible</b> — What you see is not what you get.<br><br>
+  Made with ❤ by <a href="https://github.com/darkshadow2bd">DarkShadow</a> &amp; <a href="https://github.com/ImranVibes">Imran Hossain</a>
 </div>
