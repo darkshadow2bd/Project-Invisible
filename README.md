@@ -167,11 +167,6 @@ python3 en.py --file evidence.jpg --name evidence.jpg
 python3 de.py en_file.txt --media --save evidence.jpg
 ```
 
-### Example 4: Pipe Mode
-```bash
-python3 en.py "Secret data" | python3 de.py
-```
-
 ---
 
 ## How It Works
