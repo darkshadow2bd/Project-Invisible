@@ -1,0 +1,7 @@
+# Core Steganography Dependencies
+cryptography>=3.0.0
+brotli>=1.0.0
+
+# Desktop GUI Dependencies
+customtkinter>=5.2.0
+darkdetect>=0.8.0
